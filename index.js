@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 4000;
+const port = 4000;
 const { MongoClient } = require("mongodb");
 const uri = "mongodb://localhost:27017/mymkart"; // Replace with your MongoDB connection string
 const client = new MongoClient(uri, { useNewUrlParser: true });
