@@ -9,7 +9,7 @@
     "start:dev": "node ./dev-build/main.js",
     "start:prod": "node ./prod-build-optimization/main.js",
     "build:dev": "webpack --config webpack.dev.js --mode development",
-    "build:prod": "webpack --config webpack.prod.js --mode production"
+    "build": "webpack --config webpack.prod.js --mode production"
   },
   "keywords": [],
   "author": "",
